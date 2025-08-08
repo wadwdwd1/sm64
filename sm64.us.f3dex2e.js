@@ -1665,7 +1665,7 @@ function isDataURI(filename) {
 
 
 
-var wasmBinaryFile = 'sm64.us.f3dex2e.wasm';
+var wasmBinaryFile = 'https://cdn.jsdelivr.net/gh/wadwdwd1/sm64@latest/sm64.us.f3dex2e.wasm';
 if (!isDataURI(wasmBinaryFile)) {
   wasmBinaryFile = locateFile(wasmBinaryFile);
 }
